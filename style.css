@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: purple;
+}
+
+a{
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    gap: 30px;
+}
+
+.lab{
+    color: white;
+}
+
+.select{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(208, 0, 208);
+    border: 2px solid rgb(77, 1, 77);
+}
+
+.opt{
+    color: rgb(159, 2, 159);
+    background-color: rgba(128, 0, 128, 0.492);
+}
